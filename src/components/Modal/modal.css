@@ -1,0 +1,48 @@
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Model */
+.content {
+  width: 100%;
+  padding: 10px 5px;
+}
+
+.modal-wrapper-bottom {
+  max-height: auto;
+  overflow-y: auto;
+  padding: 20px;
+}
+
+.modal-wrapper-bottom img {
+  padding: 0px 50px;
+  border-radius: 5px;
+  height: 394px;
+  width: 100%;
+  @media screen and (min-width: 576px) {
+    width: 80%;
+    padding: 0px 43px;
+  }
+}
+
+.modal-wrapper-bottom .product-detail p {
+  margin: 0px;
+  margin-bottom: 8px;
+  font-size: 17px;
+  text-align: start;
+  line-height: 1.5;
+  font-family: "philosopher", sans-serif;
+  color: #676768;
+}
+
+.modal-wrapper-bottom .product-detail p span {
+  margin-right: 12px;
+}
+
+.product-detail .rating {
+  display: flex;
+  align-items: center;
+}
